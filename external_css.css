@@ -1,0 +1,72 @@
+#homelink{
+	text-align:center;
+}
+
+
+.d_font{
+	font-size: 20px;
+	font-color:Blue;
+}
+.button {
+  background-color: #f44336;
+  border: none;
+  color: white;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s;
+
+}
+.button:hover {
+	background-color: #e7e7e7; 
+	color: black; 
+ 
+}
+
+.d_color{
+	color: white;
+	background-color: black;
+	background-image: url("i1.jpg") ;
+}
+.d_text{
+	text-decoration: none ;
+	text-align: left;
+	text-indent: 50px;
+	float: center;
+	color:white;
+}
+.d_box{
+	margin-top: 25px;
+	margin-right:150px ;
+	margin-left: 30px;
+	margin-bottom: 25px;
+	margin: 35px;
+	border-width: thin;
+	border-color: coral;
+	border-style: dotted;
+	border: 6px solid red;
+}
+.d_list{
+	list-style-image: url('clr.jpg');;
+	list-style-type: square;
+}
+
+/*Linkings */
+a:link {
+  color: red;
+  text-decoration: none;
+}
+a:visited {
+  color: blue;
+  text-decoration: none;
+}
+a:hover {
+  color: yellow;
+  text-decoration: none;
+}
+a:active {
+  color: blue;
+  text-decoration: none;
+}
